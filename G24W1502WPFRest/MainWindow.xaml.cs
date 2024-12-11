@@ -12,7 +12,7 @@ public partial class MainWindow : Window
         InitializeComponent();
         DataContext = vm;
 
-        GameGrid.ItemsSource = vm.Games;
+        //GameGrid.ItemsSource = vm.Games;
 
         InitializeGames();
     }
